@@ -1,16 +1,16 @@
-# Projeto de Lista de Compras
+# Repositório de estudos na Alura 2024
 
-Este é um projeto simples de lista de compras que permite ao usuário adicionar itens a uma lista e verificar se um item já foi adicionado.
+Desenvolvendo habilidades e ganhando mais conhecimentos.
 
 ## Instalação
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/seu-usuario/projeto-lista-de-compras.git
+    https://github.com/Ramonlegend/ALURA.git
     ```
 2. Navegue até o diretório do projeto:
     ```sh
-    cd projeto-lista-de-compras
+    cd aula1
     ```
 3. Abra o arquivo `index.html` no seu navegador para visualizar o projeto.
 
