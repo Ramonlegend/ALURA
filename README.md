@@ -14,12 +14,6 @@ Desenvolvendo habilidades e ganhando mais conhecimentos.
     ```
 3. Abra o arquivo `index.html` no seu navegador para visualizar o projeto.
 
-## Funcionalidade
-
-1. Digite o nome do item no campo de entrada.
-2. Clique no botão "Adicionar" para adicionar o item à lista.
-3. Se o item já estiver na lista, uma mensagem de alerta será exibida.
-
 ## Contribuição
 
 1. Faça um fork do projeto.
