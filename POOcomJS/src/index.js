@@ -1,16 +1,38 @@
-const personagemPedrinho = {
-    nome: 'Pedrinho',
-    vida: 7,
-    mana: 12,
-    level: 5,
-    tipo: 'Mago',
-}
+import { Personagem } from './modules/personagem.js';
+import { PersonagemView } from './components/personagem-view.js';
+import { Mago } from './modules/mago.js';
 
-const personagemJose = {
-    nome: 'Jose',
-    vida: 7,
-    mana: 6,
-    level: 3,
-    tipo: 'Arqueiro',
-}
+const personagemPedrinho = new Personagem(
+  'Pedrinho',
+  100,
+  50,
+  1,
+  'Mago',
+  'Um mago iniciante.',
+);
 
+const personagemJose = new Personagem(
+  'José',
+  100,
+  50,
+  5,
+  'Arqueiro',
+  'Um arqueiro experiente.',
+);
+
+const personagemLoiroJose = new Mago(
+  'Loiro José',
+  100,
+  50,
+  5,
+  'Mago',
+  'Um mago experiente',
+  'Gelo',
+  10,
+  100,
+);
+const personagens = [personagemPedrinho, personagemJose, personagemLoiroJose];
+
+new PersonagemView(personagens).render();
+
+console.log(personagemPedrinho.vida);
